@@ -21,7 +21,7 @@ To install and run this project, follow these steps:
 2. Clone the repository:
    ```
    git clone https://github.com/kakapo1933/shoppingCart.git
-   cd shopping cart
+   cd shoppingCart
    ```
 
 3. Install dependencies for both frontend and backend:
