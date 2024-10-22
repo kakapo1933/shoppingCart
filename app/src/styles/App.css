@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#productList {
+  margin-bottom: 20px;
+}
+
+.product-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-info {
+  flex-grow: 1;
+}
+
+.product-actions button {
+  margin-left: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button.edit {
+  background-color: #2196F3;
+}
+
+button.edit:hover {
+  background-color: #0b7dda;
+}
+
+button.delete {
+  background-color: #f44336;
+}
+
+button.delete:hover {
+  background-color: #da190b;
+}
+
+.add-to-cart {
+  background-color: #ff9800;
+}
+
+.add-to-cart:hover {
+  background-color: #e68a00;
+}
+
+.cart {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item input {
+  width: 50px;
+  margin: 0 10px;
+}
+
+.cart-total {
+  margin-top: 20px;
+  text-align: right;
+}

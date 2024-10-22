@@ -1,0 +1,26 @@
+{
+  "name": "mock-server-project",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A mock server for product management",
+  "main": "mockServer.js",
+  "scripts": {
+    "start": "node src/mockServer.js",
+    "dev": "nodemon src/mockServer.js"
+  },
+  "keywords": [
+    "mock",
+    "server",
+    "express",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
